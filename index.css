@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    background-color: #2e3035;
+}
+
+#head-bg {
+    background-image: url('./images/homebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+}
+
+#top-blank {
+    width: 100%;
+    height: 15px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+#navbar {
+    position: fixed;
+    margin-left: 0%;
+    width: 100%;
+    transition: 0.5s;
+    animation: scroll 0.6s 1;
+}
+
+#leftside img {
+    width: 100px;
+    padding-left: 15px;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-right: 20px;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    padding: 6px 14px 6px 7px;
+    text-transform: none;
+    user-select: none;
+    touch-action: manipulation;
+    border-radius: 3px;
+    font-weight: bold;
+    position: relative;
+    width: auto;
+    background-color: #1bb76e;
+    box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+    color: #fff;
+    text-decoration: none;
+}
+
+#leftside a img {
+    padding: 0;
+    font-size: inherit;
+    position: inherit;
+    display: inline-block;
+    margin-right: 13px;
+    vertical-align: middle;
+    width: auto;
+}
+
+#middle {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    text-align: justify;
+}
+
+#middle input {
+    background: hsla(0, 0%, 100%, .25);
+    border: none;
+    padding: 8px 35px 8px 10px;
+    border-radius: 3px;
+    width: 70%;
+    margin-left: 15%;
+    color: white;
+}
+
+#middle i {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: -25px;
+    color: white;
+}
+
+#add_free {
+    background: #6432f9;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+    padding: 8px 14px 8px 9px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: auto 0;
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+#sign_in {
+    margin: auto 24px auto 24px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 14px 15px rgb(27 28 30 / 31%);
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#sign_up {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 18px 8px 18px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    width: auto;
+    background-color: #1bb76e;
+    box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+    color: #fff;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#quotes {
+    font-size: 24px;
+    font-family: Proxima Nova ExtraBold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .6px;
+    color: #aed8ea;
+    text-align: center;
+    margin: 50px 0 20px 0;
+    min-height: 34px;
+    position: relative;
+}
+
+#sub_explore {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#headings {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 95%;
+    height: auto;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.about {
+    width: 95%;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    margin-top: -10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#last {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#last_sub {}
+
+#last h2 {
+    color: white;
+}
+
+#blank2 {
+    width: 100%;
+    height: 40px;
+}
+
+#main {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#apiimages {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 25% 24% 24% 25%;
+}
+
+#apiimages div {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+    background-color: #2e3035;
+}
+
+#apiimages img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#apiimages h5 {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#apiimages p {
+    display: inline;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
